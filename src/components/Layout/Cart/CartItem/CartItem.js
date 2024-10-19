@@ -10,7 +10,7 @@ function CartItem({inCart, imgSrc, productId, name, quantity, price, removeItem}
             <Paragraphe text={name} color="var(--rose-900)" bold="600" size="14px"/>
             <Paragraphe children={<div><strong>{quantity}x</strong><span>@${price.toFixed(2)}</span><span>${(price * quantity).toFixed(2)}</span></div>} />
         </StyledCartItemInfos>
-        {inCart && <Image src="/images/icon-remove-item.svg" alt="remove item icon" onClick={() => removeItem(productId)}/>}
+        {inCart && <Image src="./images/icon-remove-item.svg" alt="remove item icon" onClick={() => removeItem(productId)}/>}
     </StyledCartItem>
   );
 }

@@ -2,8 +2,8 @@ import Image from '../Image/Image';
 import {DefaultButton, CartButton, SelectableButton, IconButton} from './StyledButton';
 
 const IconMoreLess = {
-  more: "/images/icon-increment-quantity.svg",
-  less: "/images/icon-decrement-quantity.svg"
+  more: "./images/icon-increment-quantity.svg",
+  less: "./images/icon-decrement-quantity.svg"
 }
 
 function Button({text, margin, transform, eventClick, cartBtn, selectableBtn, iconEnable, selectedElems, children }) {

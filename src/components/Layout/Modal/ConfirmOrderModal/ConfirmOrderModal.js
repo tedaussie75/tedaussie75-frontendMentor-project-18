@@ -10,7 +10,7 @@ function ConfirmOrderModal({Cart, CartTotalPrice, closeModal}) {
   return (
     <StyledConfirmModal>
         <StyledConfirmContent>
-          <Image src="/images/icon-order-confirmed.svg" alt="icon validation" width="35px"/>
+          <Image src="./images/icon-order-confirmed.svg" alt="icon validation" width="35px"/>
           <Title as="h2" text="Order Confirmed" margin="10px 0 0" size="30px"/>
           <Paragraphe text="We hope your enjoy your food!" margin="10px 0 20px" size="11px" color="var(--rose-500)" bold="600"/>
           <div class="orderResume">
